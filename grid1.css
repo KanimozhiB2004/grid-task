@@ -1,0 +1,59 @@
+.item1{
+    grid-area: Holy;
+}
+.item2{grid-area: Nav;}
+.item3{grid-area: main;}
+.item4{grid-area: side;}
+.item5{grid-area: footer;}
+.grid-container{
+    display: grid;
+    grid-template-areas: 'Holy Holy Holy Holy'
+            'Nav main main side'
+            'footer footer footer footer';
+    gap: 20px;
+    background-color:white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+}
+.item1{
+    background-color:blue;
+    gap: 20px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 3cm;
+}
+.item2{
+    background-color:rgb(37, 97, 226);
+    gap: 20px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 10cm;
+}
+.item3{
+    background-color:gray ;
+    gap: 20px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 10cm;
+}
+.item4{
+    background-color:rgb(37, 97, 226);
+    gap: 20px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 10cm;
+}
+.item5{
+    background-color:blue;
+    gap: 20px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 3cm;
+}
